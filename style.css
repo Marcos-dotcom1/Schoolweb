@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+section, form, ul, div {
+    background-color: #ffe6ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
