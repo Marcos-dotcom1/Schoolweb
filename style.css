@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color:  #f9f3fc;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
@@ -15,12 +15,12 @@ nav {
 nav a {
     margin-right: 15px;
     text-decoration: none;
-    color: purple;
+    color: #963dc2;
     font-weight: bold;
 }
 
 section, form, ul, div {
-    background-color: #ffe6ff;
+    background-color: #cd8cee;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
