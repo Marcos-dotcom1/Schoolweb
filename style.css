@@ -28,3 +28,7 @@ section, form, ul, div {
     background-color: rgb(237, 208, 246);
     text-align: center;
 }
+h1 {
+    float: right;
+    margin-top: 30px;
+}
