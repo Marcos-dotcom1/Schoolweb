@@ -21,8 +21,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 📜 portfolio
 
-- Container box color and margin
-
 ---
 
 ## 🎁 Bonus
