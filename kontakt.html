@@ -10,18 +10,34 @@
   <body>
     <header><h2>Kontakt</h2></header>
 
-    <form>
-      <label>Telefon:</label><br />
-      <input type="text" name="telefon" /><br />
+    <main>
+      <section class="content-card">
+        <p>Folge mir auf:</p>
+        <a href="https://github.com/deinusername" target="_blank">GitHub</a>
+        <a href="https://instagram.com/deinusername" target="_blank"
+          >Instagram</a
+        >
+      </section>
 
-      <label>Email:</label><br />
-      <input type="email" name="email" /><br />
+      <section class="content-card">
+        <form
+          action="mailto:deinname@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-      <label>Adresse:</label><br />
-      <input type="text" name="adresse" /><br />
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
 
-      <button type="submit">Absenden</button>
-    </form>
+          <label for="message">Nachricht:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="submit" value="Absenden" />
+        </form>
+      </section>
+    </main>
 
     <div class="navbar">
       <nav>

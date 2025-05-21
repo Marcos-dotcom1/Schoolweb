@@ -14,8 +14,7 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 🎬 Kontakt
 
-- change label to text
-- Container box color and margin
+- Improve CSS
 
 ---
 
