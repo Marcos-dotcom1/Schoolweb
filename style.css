@@ -197,6 +197,11 @@ textarea:focus {
   transform: scale(1.02);
 }
 
+.Socialmediabutton {
+  margin-right: 5%;
+  text-decoration: none;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
