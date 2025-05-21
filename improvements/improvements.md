@@ -31,5 +31,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 - pfp
 - video and pictures
 - optimize loading time (pictures and videos)
+- consisitent Font and speech
 
 ---
