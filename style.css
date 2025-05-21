@@ -1,140 +1,240 @@
 :root {
-    --primary-color: #8A4F7D;
-    --secondary-color: #F9F3FC;
-    --accent-color: #D8B4E2;
-    --text-color: #333;
+  --primary-color: #8a4f7d;
+  --secondary-color: #f9f3fc;
+  --accent-color: #d8b4e2;
+  --text-color: #333;
 }
 
 body {
-    background-color: var(--secondary-color);
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    color: var(--text-color);
-    line-height: 1.6;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  background-color: var(--secondary-color);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    background-color: white;
-    padding: 1.5rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 header img {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }
 
 main {
-    flex: 1;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: border-box;
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .content-card {
-    background: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    margin-bottom: 2rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
 }
 
 .navbar {
-    background: white;
-    padding: 1rem;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
-    margin-top: auto;
+  background: white;
+  padding: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+  margin-top: auto;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 nav a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    transition: all 0.2s ease;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
 }
 
 nav a:hover {
-    background-color: var(--accent-color);
-    color: white;
+  background-color: var(--accent-color);
+  color: white;
 }
 
 form {
-    display: grid;
-    gap: 1rem;
-    max-width: 500px;
+  display: grid;
+  gap: 1rem;
+  max-width: 500px;
 }
 
-input, button {
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    font-size: 1rem;
+input,
+button {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
 }
 
 button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
 button:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .portfolio-item {
-    border-left: 4px solid var(--primary-color);
-    padding-left: 1rem;
-    margin-bottom: 1.5rem;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .skills-list {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    gap: 1rem;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
 }
 
 .skills-list li {
-    background: var(--accent-color);
-    padding: 0.8rem 1.5rem;
-    border-radius: 2rem;
-    color: var(--primary-color);
-    font-weight: 500;
+  background: var(--accent-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+main {
+  padding: 2rem 1.5rem;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.content-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(
+    to bottom right,
+    white 60%,
+    var(--secondary-color)
+  );
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+form {
+  gap: 1.2rem;
+}
+
+textarea {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--accent-color);
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.skills-list li {
+  transition: transform 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.02);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .content-card {
+    padding: 1.5rem;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-links a {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
 
-    nav {
-        gap: 1rem;
-    }
+  nav {
+    gap: 1rem;
+  }
 
-    main {
-        padding: 1rem;
-    }
+  main {
+    padding: 1rem;
+  }
 }
