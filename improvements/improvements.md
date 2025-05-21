@@ -14,8 +14,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 🎬 Kontakt
 
-- Improve CSS
-
 ---
 
 ## 📜 portfolio
