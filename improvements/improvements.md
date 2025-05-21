@@ -10,8 +10,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 🚀 Faehigkeiten
 
-- container box for faehigkeiten
-
 ---
 
 ## 🎬 Kontakt
