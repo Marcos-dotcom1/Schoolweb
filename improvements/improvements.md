@@ -18,14 +18,16 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 📜 portfolio
 
+- text
+
 ---
 
 ## 🎁 Ask
 
-- text
 - colors
 - pfp
 - video and pictures
+- personal data(instagram, etc.)
 
 ---
 
