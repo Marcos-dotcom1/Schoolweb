@@ -4,6 +4,13 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ---
 
+## 📜 Document in README
+
+- Color changes
+- Structure changes
+
+---
+
 ## 🏠 Index
 
 ---
@@ -23,11 +30,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 ---
 
 ## 🎁 Ask
-
-- colors
-- pfp
-- video and pictures
-- personal data(instagram, etc.)
 
 ---
 
