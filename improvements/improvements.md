@@ -27,8 +27,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 📜 portfolio
 
-- add media
-
 ---
 
 ## 🎁 Ask
