@@ -13,8 +13,6 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 🏠 Index
 
-- text
-
 ---
 
 ## 🚀 Faehigkeiten
@@ -23,14 +21,12 @@ A summary of key areas to improve across all pages to enhance user experience an
 
 ## 🎬 Kontakt
 
-- links
 - comments
 
 ---
 
 ## 📜 portfolio
 
-- text
 - add media
 
 ---
