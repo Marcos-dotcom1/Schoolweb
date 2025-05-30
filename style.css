@@ -285,30 +285,42 @@ button:disabled {
   border-radius: clamp(0.25rem, 1vw, 0.5rem);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  /* Optimized loading */
+  loading: lazy;
+  decoding: async;
 }
 
 .portfolio_project1_video {
   max-width: min(600px, 90vw);
   aspect-ratio: 16/9;
+  /* Preload metadata for better UX */
+  preload: metadata;
 }
 
 .portfolio_project2_image,
 .portfolio_project3_image {
-  max-height: clamp(200px, 40vh, 300px);
+  max-height: clamp(200px, 40vh, 400px);
   object-fit: contain;
+  /* Prevent layout shift */
+  min-height: 200px;
 }
 
 .portfolio_project4_gif {
-  max-height: clamp(150px, 30vh, 250px);
+  max-height: clamp(150px, 30vh, 300px);
   object-fit: contain;
   max-width: 100%;
+  /* Prevent layout shift for GIFs */
+  min-height: 150px;
 }
 
-.portfolio_project1_video:hover,
-.portfolio_project2_image:hover,
-.portfolio_project3_image:hover,
-.portfolio_project4_gif:hover {
-  transform: scale(1.02);
+/* Hover effects only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .portfolio_project1_video:hover,
+  .portfolio_project2_image:hover,
+  .portfolio_project3_image:hover,
+  .portfolio_project4_gif:hover {
+    transform: scale(1.02);
+  }
 }
 
 /* === Lists === */
@@ -545,20 +557,55 @@ th {
   /* Colors stay the same as defined in :root */
 }
 
-/* Container queries support (modern browsers) */
-@supports (container-type: inline-size) {
+/* === Performance Optimizations === */
+
+/* Critical resource hints */
+link[rel="preconnect"] {
+  /* For external fonts/resources */
+}
+
+/* Optimize font loading */
+@font-face {
+  font-display: swap; /* FOIT to FOUT for better perceived performance */
+}
+
+/* Reduce layout shifts */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optimize animations for performance */
+.content-card,
+nav a,
+button,
+.portfolio_project1_video,
+.portfolio_project2_image,
+.portfolio_project3_image,
+.portfolio_project4_gif {
+  will-change: auto; /* Let browser decide */
+}
+
+/* Optimize repaints */
+.content-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  /* Use transform instead of position changes */
+}
+
+/* Reduce main thread work */
+@media (prefers-reduced-motion: no-preference) {
   .content-card {
-    container-type: inline-size;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  @container (max-width: 400px) {
-    .content-card h2 {
-      font-size: var(--font-lg);
-    }
+  nav a {
+    transition: all 0.2s ease;
+  }
 
-    .content-card p {
-      font-size: var(--font-sm);
-    }
+  button {
+    transition: all 0.2s ease;
   }
 }
 
