@@ -27,7 +27,17 @@
         <img
           class="portfolio_project2_image"
           src="images/Type_inked.png"
+          srcset="
+            images/Type_inked_small.png  800w,
+            images/Type_inked_large.png 1600w
+          "
+          sizes="
+      (max-width: 768px) 100vw,
+      80vw
+    "
           alt="Type inked"
+          loading="lazy"
+          decoding="async"
         />
       </section>
 
