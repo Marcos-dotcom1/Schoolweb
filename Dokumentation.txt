@@ -11,13 +11,13 @@ Hier die Gründe dazu:
 Im Mockup waren die Farben ehrlich gesagt nicht gut gewählt. Sie haben weder gut zusammengepasst noch für eine angenehme Lesbarkeit gesorgt. Teilweise haben sie die Seite unruhig und unprofessionell wirken lassen.
 
 Warum ich’s geändert habe:
-Ich wollte ein Design, das moderner und klarer aussieht. Die neuen Farben haben mehr Kontrast, sind besser lesbar und machen es einfacher, sich auf der Seite zurechtzufinden. Außerdem wirkt die Seite so einfach hochwertiger.
+Ich wollte ein Design, das moderner und klarer aussieht. Die neuen Farben haben mehr Kontrast, sind besser lesbar und machen es einfacher, sich auf der Seite zurechtzufinden. Ausserdem wirkt die Seite so einfach hochwertiger.
 
 2. Struktur
 Die Struktur im Mockup war unnötig kompliziert. Manche Sachen waren an komischen Stellen, man musste zu viel scrollen und die wichtigsten Infos waren schlecht platziert.
 
 Warum ich’s geändert habe:
-Ich habe die Inhalte so umgestellt, dass sie einen besseren Lesefluss haben und man die wichtigsten Sachen schneller findet. Außerdem ist die Seite jetzt übersichtlicher und moderner aufgebaut.
+Ich habe die Inhalte so umgestellt, dass sie einen besseren Lesefluss haben und man die wichtigsten Sachen schneller findet. Ausserdem ist die Seite jetzt übersichtlicher und moderner aufgebaut.
 
 Fazit
 Die Änderungen waren nötig, weil das ursprüngliche Mockup in der Praxis einfach nicht gut funktioniert hat. Mit den Anpassungen ist die Seite jetzt verständlicher, sieht besser aus und lässt sich einfacher bedienen.
